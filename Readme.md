@@ -2,7 +2,7 @@
 This a Tango device server written in PyTango for a PI C-863.12 Mercury controller using the RS232 serial interface.
 
 # Getting Started
-This Tango device server is meant to run e.g. a Raspberry PI connected to the PI C-863.12 Mercury controller via a RS232 serial to USB converter.
+This Tango device server is meant to run on, e.g., a Raspberry PI connected to the PI C-863.12 Mercury controller via a RS232 serial to USB converter.
 
 # Installation
 ## USB Serial converter
