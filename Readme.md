@@ -25,7 +25,7 @@ The ```PIC863Mercury``` Class requires to set the following properties:
 - Baudrate (e.g., ```115200```)
 - CtrlID (e.g., ```1,2,3,...```)
 - Axis (e.g., ```1,2,3,...```)
-- NeedsServo (determines if the connected stage needs to enable SERVO mode in order to operate, ```1``` or ```0```)
+- NeedsServo (determines if the connected stage needs to enable SERVO mode in order to operate, ```True``` or ```False```)
 
 ## Authors
 Martin Hennecke
