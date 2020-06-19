@@ -68,27 +68,22 @@ class PIC863Mercury(Device):
 
     Port = device_property(
         dtype='DevString',
-        default_value="/dev/ttyPIMercury"
     )
 
     Baudrate = device_property(
         dtype='DevLong',
-        default_value=115200
     )
 
     CtrlID = device_property(
         dtype='DevLong',
-        default_value=1
     )
     
     Axis = device_property(
         dtype='DevLong',
-        default_value=1
     )
     
     NeedsServo = device_property(
         dtype='DevBoolean',
-        default_value=True
     )
 
     # ----------
