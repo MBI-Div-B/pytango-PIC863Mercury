@@ -68,6 +68,7 @@ class PIC863Mercury(Device):
 
     Port = device_property(
         dtype='DevString',
+        doc='e.g., /dev/ttyPIMercury'
     )
 
     Baudrate = device_property(
