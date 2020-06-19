@@ -73,18 +73,22 @@ class PIC863Mercury(Device):
 
     Baudrate = device_property(
         dtype='DevLong',
+        doc='e.g., 115200'
     )
 
     CtrlID = device_property(
         dtype='DevLong',
+        doc='1,2,3,...'
     )
     
     Axis = device_property(
         dtype='DevLong',
+        doc='1,2,3,...'
     )
     
     NeedsServo = device_property(
         dtype='DevBoolean',
+        doc='determines if the connected stage needs to enable SERVO mode in order to operate, True or False'
     )
 
     # ----------
