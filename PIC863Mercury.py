@@ -245,14 +245,13 @@ class PIC863Mercury(Device):
     def read_SlewRate(self):
         # PROTECTED REGION ID(PIC863Mercury.SlewRate_read) ENABLED START #
         """Return the SlewRate attribute."""
-        self.__slew_rate = abs(float(self.write_read('VEL? '+str(self.Axis)))/self.__conversion)
+        self.__slew_rate = float(self.write_read('VEL? '+str(self.Axis)))
         return self.__slew_rate
         # PROTECTED REGION END #    //  PIC863Mercury.SlewRate_read
 
     def write_SlewRate(self, value):
         # PROTECTED REGION ID(PIC863Mercury.SlewRate_write) ENABLED START #
         """Set the SlewRate attribute."""
-        value = abs(value * self.__conversion)
         self.write_read('VEL '+str(self.Axis)+' '+str(value))
         pass
         # PROTECTED REGION END #    //  PIC863Mercury.SlewRate_write
@@ -260,14 +259,13 @@ class PIC863Mercury(Device):
     def read_Acceleration(self):
         # PROTECTED REGION ID(PIC863Mercury.Acceleration_read) ENABLED START #
         """Return the Acceleration attribute."""
-        self.__acceleration = abs(float(self.write_read('ACC? '+str(self.Axis)))/self.__conversion)
+        self.__acceleration = float(self.write_read('ACC? '+str(self.Axis)))
         return self.__acceleration
         # PROTECTED REGION END #    //  PIC863Mercury.Acceleration_read
 
     def write_Acceleration(self, value):
         # PROTECTED REGION ID(PIC863Mercury.Acceleration_write) ENABLED START #
         """Set the Acceleration attribute."""
-        value = abs(value * self.__conversion)
         self.write_read('ACC '+str(self.Axis)+' '+str(value))
         self.write_read('DEC '+str(self.Axis)+' '+str(value))
         pass
