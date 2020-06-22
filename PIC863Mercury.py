@@ -105,14 +105,14 @@ class PIC863Mercury(Device):
     HW_Position = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="DevUnits",
+        unit="units",
         memorized=True,
     )
 
     SlewRate = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="DevUnits/s",
+        unit="units/s",
         memorized=True,
         hw_memorized=True,
     )
@@ -120,7 +120,7 @@ class PIC863Mercury(Device):
     Acceleration = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="DevUnits/s^2",
+        unit="units/s^2",
         memorized=True,
         hw_memorized=True,
     )
@@ -128,7 +128,7 @@ class PIC863Mercury(Device):
     UnitLimitMin = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="DevUnits",
+        unit="units",
         memorized=True,
         hw_memorized=True,
     )
@@ -136,7 +136,7 @@ class PIC863Mercury(Device):
     UnitLimitMax = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="DevUnits",
+        unit="units",
         memorized=True,
         hw_memorized=True,
     )
@@ -144,7 +144,7 @@ class PIC863Mercury(Device):
     Conversion = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="DevUnits/mm",
+        unit="units/mm",
         memorized=True,
         hw_memorized=True,
     )
