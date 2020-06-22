@@ -107,6 +107,7 @@ class PIC863Mercury(Device):
         access=AttrWriteType.READ_WRITE,
         unit="mm/s",
         memorized=True,
+        hw_memorized=True,
     )
 
     Acceleration = attribute(
@@ -114,6 +115,7 @@ class PIC863Mercury(Device):
         access=AttrWriteType.READ_WRITE,
         unit="mm/s^2",
         memorized=True,
+        hw_memorized=True,
     )
 
     UnitLimitMin = attribute(
@@ -156,7 +158,7 @@ class PIC863Mercury(Device):
         self.__acceleration = 0.0
         self.__unit_limit_min = 0.0
         self.__unit_limit_max = 0.0
-        self.__conversion = 0.0
+        self.__conversion = 1.0
         
         # configure serial
         self.serial = serial.Serial()
