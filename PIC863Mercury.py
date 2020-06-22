@@ -245,6 +245,7 @@ class PIC863Mercury(Device):
         # PROTECTED REGION ID(PIC863Mercury.Position_write) ENABLED START #
         """Set the Position attribute."""
         self.write_HW_Position(value*self.__conversion)
+        pass
         # PROTECTED REGION END #    //  PIC863Mercury.Position_write
         
     def read_HW_Position(self):
