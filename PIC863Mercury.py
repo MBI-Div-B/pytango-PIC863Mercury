@@ -101,25 +101,34 @@ class PIC863Mercury(Device):
         unit="mm",
         memorized=True,
     )
+    
+    HW_Position = attribute(
+        dtype='DevDouble',
+        access=AttrWriteType.READ_WRITE,
+        unit="DevUnits",
+        memorized=True,
+    )
 
     SlewRate = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="mm/s",
+        unit="DevUnits/s",
         memorized=True,
+        hw_memorized=True,
     )
 
     Acceleration = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="mm/s^2",
+        unit="DevUnits/s^2",
         memorized=True,
+        hw_memorized=True,
     )
 
     UnitLimitMin = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="mm",
+        unit="DevUnits",
         memorized=True,
         hw_memorized=True,
     )
@@ -127,7 +136,7 @@ class PIC863Mercury(Device):
     UnitLimitMax = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="mm",
+        unit="DevUnits",
         memorized=True,
         hw_memorized=True,
     )
@@ -135,7 +144,7 @@ class PIC863Mercury(Device):
     Conversion = attribute(
         dtype='DevDouble',
         access=AttrWriteType.READ_WRITE,
-        unit="deviceUnits/mm",
+        unit="DevUnits/mm",
         memorized=True,
         hw_memorized=True,
     )
@@ -152,6 +161,7 @@ class PIC863Mercury(Device):
         
         # PROTECTED REGION ID(PIC863Mercury.init_device) ENABLED START #      
         self.__position = 0.0
+        self.__hw_position = 0.0
         self.__slew_rate = 0.0
         self.__acceleration = 0.0
         self.__unit_limit_min = 0.0
@@ -227,20 +237,32 @@ class PIC863Mercury(Device):
     def read_Position(self):
         # PROTECTED REGION ID(PIC863Mercury.Position_read) ENABLED START #
         """Return the Position attribute."""
-        self.__position = float(self.write_read('POS? '+str(self.Axis)))/self.__conversion
+        self.__position = self.read_HW_Position()/self.__conversion
         return self.__position
         # PROTECTED REGION END #    //  PIC863Mercury.Position_read
 
     def write_Position(self, value):
         # PROTECTED REGION ID(PIC863Mercury.Position_write) ENABLED START #
         """Set the Position attribute."""
+        self.write_HW_Position(value*self.__conversion)
+        # PROTECTED REGION END #    //  PIC863Mercury.Position_write
+        
+    def read_HW_Position(self):
+        # PROTECTED REGION ID(PIC863Mercury.Position_read) ENABLED START #
+        """Return the Position attribute."""
+        self.__hw_position = float(self.write_read('POS? '+str(self.Axis)))
+        return self.__hw_position
+        # PROTECTED REGION END #    //  PIC863Mercury.Position_read
+
+    def write_HW_Position(self, value):
+        # PROTECTED REGION ID(PIC863Mercury.HW_Position_write) ENABLED START #
+        """Set the HW_Position attribute."""
         if value>=self.__unit_limit_min and value<=self.__unit_limit_max:
-            value = value * self.__conversion
             self.write_read('MOV '+str(self.Axis)+' '+str(value))
         else:
             self.error_stream("target position of {:f} exceeds software limits".format(value))
         pass
-        # PROTECTED REGION END #    //  PIC863Mercury.Position_write
+        # PROTECTED REGION END #    //  PIC863Mercury.HW_Position_write
 
     def read_SlewRate(self):
         # PROTECTED REGION ID(PIC863Mercury.SlewRate_read) ENABLED START #
