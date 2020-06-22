@@ -107,7 +107,6 @@ class PIC863Mercury(Device):
         access=AttrWriteType.READ_WRITE,
         unit="mm/s",
         memorized=True,
-        hw_memorized=True,
     )
 
     Acceleration = attribute(
@@ -115,7 +114,6 @@ class PIC863Mercury(Device):
         access=AttrWriteType.READ_WRITE,
         unit="mm/s^2",
         memorized=True,
-        hw_memorized=True,
     )
 
     UnitLimitMin = attribute(
