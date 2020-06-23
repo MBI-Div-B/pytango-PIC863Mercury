@@ -1,26 +1,20 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # This file is part of the PIC863Mercury project
 #
 #
-#
-# Distributed under the terms of the GPL license.
-# See LICENSE.txt for more info.
+# Copyright (C) DATE  MBI-Division-B
+# MIT License, refer to LICENSE file
+# Author: / Email: (please set DATE above to year)
 
-""" PIC863Mercury PyTango Class (Serial connection)
-
-Class for controlling motors using the PI C-863.12 Mercury controller via serial connection
-"""
 
 # PyTango imports
-import tango
-from tango import DebugIt
 from tango.server import run
 from tango.server import Device
 from tango.server import attribute, command
 from tango.server import device_property
-from tango import AttrQuality, DispLevel, DevState
-from tango import AttrWriteType, PipeWriteType
+from tango import AttrWriteType, DevState
 # Additional import
 # PROTECTED REGION ID(PIC863Mercury.additionnal_import) ENABLED START #
 import serial
