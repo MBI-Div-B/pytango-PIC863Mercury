@@ -437,9 +437,8 @@ class PIC863Mercury(Device):
         pass
         # PROTECTED REGION END #    //  PIC863Mercury.ServoDisable
         
-    @command(
-    )
-    def Calibrate(self):
+    @command(dtype_in='DevDouble')
+    def Calibrate(self,argin):
         # PROTECTED REGION ID(PIC863Mercury.Calibrate) ENABLED START #
         """
 
