@@ -1,0 +1,609 @@
+---------------------------
+Fr 17. Jul 15:45:40 CEST 2020
+Tangohost:  angstrom.hhg.lab
+---------------------------
+Fr 17. Jul 15:46:18 CEST 2020
+Tangohost:  angstrom.hhg.lab
+---------------------------
+Fr 17. Jul 15:47:12 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+---------------------------
+Fr 17. Jul 15:54:31 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+---------------------------
+Fr 17. Jul 16:01:10 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+---------------------------
+Fr 17. Jul 16:03:46 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 17. Jul 16:05:57 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 17. Jul 16:26:05 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+---------------------------
+Fr 17. Jul 16:35:33 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+---------------------------
+Fr 17. Jul 17:06:11 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Di 11. Aug 17:15:16 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 13:56:51 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 14:09:16 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+omniORB: (0) 2020-08-21 14:09:24.489512: Error: cannot create directory: /tmp/omni-pi
+omniORB: (0) 2020-08-21 14:09:24.489575: Error: Unable to create an endpoint of this description: giop:unix:
+Exiting: Server exited with unforseen exception:
+unidentifiable C++ exception
+
+Exited
+---------------------------
+Fr 21. Aug 15:05:54 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 15:23:38 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 15:52:39 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 15:53:11 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 15:56:15 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 15:58:16 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+---------------------------
+Fr 21. Aug 16:03:46 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+omniORB: (0) 2020-08-21 16:03:53.461552: Error: cannot create directory: /tmp/omni-pi
+omniORB: (0) 2020-08-21 16:03:53.461605: Error: Unable to create an endpoint of this description: giop:unix:
+Exiting: Server exited with unforseen exception:
+unidentifiable C++ exception
+
+Exited
+---------------------------
+Fr 21. Aug 16:03:46 CEST 2020
+Tangohost:  newton.nano.lab
+---------------------------
+Fr 21. Aug 16:11:48 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+omniORB: (0) 2020-08-21 16:11:55.038868: Error: cannot create directory: /tmp/omni-pi
+omniORB: (0) 2020-08-21 16:11:55.038931: Error: Unable to create an endpoint of this description: giop:unix:
+Exiting: Server exited with unforseen exception:
+unidentifiable C++ exception
+
+Exited
+---------------------------
+Fr 21. Aug 16:12:42 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 16:14:37 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Fr 21. Aug 18:12:18 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+---------------------------
+Mo 24. Aug 14:17:12 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Do 27. Aug 12:18:41 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Mi 2. Sep 14:24:05 CEST 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+1599049450 [-1225340208] INFO laser/pic863mercury/delay_stage init_device()
+1599049450 [-1225340208] INFO laser/pic863mercury/delay_stage port: /dev/ttyPIMercury
+1599049450 [-1225340208] INFO laser/pic863mercury/delay_stage baudrate = 115200
+1599049450 [-1225340208] INFO laser/pic863mercury/delay_stage connected to /dev/ttyPIMercury
+1600174737 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1600174745 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1600872351 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1600872351 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1600951913 [-1348471712] ERROR laser/pic863mercury/delay_stage target position of -149.896229 exceeds software limits
+1600952127 [-1348471712] ERROR laser/pic863mercury/delay_stage target position of 449.688687 exceeds software limits
+1601041541 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601041541 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601049279 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601051442 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601051451 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601052033 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601052285 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1601473308 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601473322 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601473327 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601567447 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1601567480 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601567501 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601567514 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 10
+
+1601632120 [-1348471712] ERROR laser/pic863mercury/delay_stage target position of -1.498962 exceeds software limits
+1601632123 [-1348471712] ERROR laser/pic863mercury/delay_stage target position of 449.688687 exceeds software limits
+1601632138 [-1348471712] ERROR laser/pic863mercury/delay_stage target position of 329.771704 exceeds software limits
+1601632149 [-1348471712] ERROR laser/pic863mercury/delay_stage target position of 301.291420 exceeds software limits
+1602152849 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602152849 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602153011 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602153011 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602154955 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602154955 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155547 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155547 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155726 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155726 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155746 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155746 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155791 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155791 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155901 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155901 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155921 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602155921 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602156297 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602156298 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157411 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157411 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157564 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157564 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157587 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157587 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157686 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157686 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157901 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157901 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157950 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157950 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157978 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602157978 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602158062 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602158062 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602158618 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602158618 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602158645 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602158645 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602158704 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602158704 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602169639 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602169639 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602169822 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602169822 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170065 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170065 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170130 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170130 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170160 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170160 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170303 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170303 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170351 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170351 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170497 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602170497 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602171381 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602171381 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602173357 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602173357 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253022 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253022 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253206 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253206 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253457 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253457 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253748 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253748 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253786 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253786 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253928 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602253928 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254209 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254209 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254289 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254289 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254320 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254320 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254415 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254415 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254470 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254470 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254547 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254547 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254754 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254754 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254890 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602254890 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255140 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255140 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255169 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255169 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255279 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255279 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255299 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255299 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255535 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255535 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255607 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255607 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255665 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255665 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255716 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255716 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255784 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255784 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255927 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602255927 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602256023 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602256023 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602256139 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602256139 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602256285 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602256285 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257099 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257099 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257121 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257121 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257281 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257281 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257505 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257505 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257700 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257700 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257754 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602257754 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258510 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258510 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258598 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258598 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258695 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258695 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258756 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258756 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258823 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258823 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258900 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602258900 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602259099 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602259099 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602490028 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602490028 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602490521 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602490522 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602490717 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602490717 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602491476 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602491476 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602491704 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602491704 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602492280 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602492280 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602492322 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602492322 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602492766 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602492766 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602493074 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602493074 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602493962 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602493962 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494051 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494051 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494083 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494083 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494295 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494295 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494506 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494506 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494963 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602494963 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602495281 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602495281 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602514825 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602514825 [-1361054624] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602516438 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602516438 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602516751 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602516751 [-1348471712] ERROR laser/pic863mercury/delay_stage controller returned error code 17
+
+1602597319 [-1348471712] ERROR laser/piterminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Di 10. Nov 15:46:32 CET 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Di 10. Nov 15:47:43 CET 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Di 10. Nov 15:49:12 CET 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Di 10. Nov 16:10:40 CET 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Mi 11. Nov 16:03:35 CET 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
+---------------------------
+Do 3. Dez 13:04:04 CET 2020
+Tangohost:  newton.nano.lab
+ping Tangohost successful!
+starting PIC863Mercury device
+terminate called after throwing an instance of 'Tango::DevFailed'
