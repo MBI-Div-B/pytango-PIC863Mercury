@@ -459,14 +459,5 @@ class PIC863Mercury(Device):
 # ----------
 # Run server
 # ----------
-
-
-def main(args=None, **kwargs):
-    """Main function of the PIC863Mercury module."""
-    # PROTECTED REGION ID(PIC863Mercury.main) ENABLED START #
-    return run((PIC863Mercury,), args=args, **kwargs)
-    # PROTECTED REGION END #    //  PIC863Mercury.main
-
-
 if __name__ == '__main__':
-    main()
+    PIC863Mercury.run_server()
