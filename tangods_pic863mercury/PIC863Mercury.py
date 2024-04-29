@@ -191,6 +191,8 @@ class PIC863Mercury(Device):
         if self.NeedsServo:
             self.ServoEnable()
 
+        #self.write_read("ERR?")
+
         self.set_status("The device is in ON state")
         self.set_state(DevState.ON)
 
@@ -232,7 +234,7 @@ class PIC863Mercury(Device):
 
     def write_HW_Position(self, value):
         if value>=self.read_UnitLimitMin() and value<=self.read_UnitLimitMax():
-            self.write_read('MOV '+str(self.Axis)+' '+str(value))
+            self.write('MOV '+str(self.Axis)+' '+str(value))
         else:
             self.error_stream("target position of {:f} exceeds software limits".format(value))
         pass
@@ -241,29 +243,29 @@ class PIC863Mercury(Device):
         return float(self.write_read('VEL? '+str(self.Axis)))
 
     def write_SlewRate(self, value):
-        self.write_read('VEL '+str(self.Axis)+' '+str(value))
+        self.write('VEL '+str(self.Axis)+' '+str(value))
         pass
 
     def read_Acceleration(self):
         return float(self.write_read('ACC? '+str(self.Axis)))
 
     def write_Acceleration(self, value):
-        self.write_read('ACC '+str(self.Axis)+' '+str(value))
-        self.write_read('DEC '+str(self.Axis)+' '+str(value))
+        self.write('ACC '+str(self.Axis)+' '+str(value))
+        self.write('DEC '+str(self.Axis)+' '+str(value))
         pass
 
     def read_UnitLimitMin(self):
         return float(self.write_read('SPA? '+str(self.Axis)+' 0x30'))
 
     def write_UnitLimitMin(self, value):
-        self.write_read('SPA '+str(self.Axis)+' 0x30 '+str(value))
+        self.write('SPA '+str(self.Axis)+' 0x30 '+str(value))
         pass
 
     def read_UnitLimitMax(self):
         return float(self.write_read('SPA? '+str(self.Axis)+' 0x15'))
 
     def write_UnitLimitMax(self, value):
-        self.write_read('SPA '+str(self.Axis)+' 0x15 '+str(value))
+        self.write('SPA '+str(self.Axis)+' 0x15 '+str(value))
         pass
 
     def read_Conversion(self):
@@ -278,7 +280,7 @@ class PIC863Mercury(Device):
 
     def write_SettlingWindow(self, value):
         self.ServoDisable()
-        self.write_read('SPA '+str(self.Axis)+' 0x36 '+str(value))
+        self.write('SPA '+str(self.Axis)+' 0x36 '+str(value))
         self.ServoEnable()
         pass
 
@@ -287,7 +289,7 @@ class PIC863Mercury(Device):
 
     def write_SettlingTime(self, value):
         self.ServoDisable()
-        self.write_read('SPA '+str(self.Axis)+' 0x3F '+str(value))
+        self.write('SPA '+str(self.Axis)+' 0x3F '+str(value))
         self.ServoEnable()
         pass
 
@@ -302,7 +304,7 @@ class PIC863Mercury(Device):
         :return:'DevState'
         Device state
         """
-        hexstatus = self.write_read(chr(4))
+        hexstatus = self.write_read('SRG? '+str(self.Axis)+' 1') #chr(4))
         binstatus = format(int(hexstatus[2:],16), '0>16b')
 
         statusbit = binstatus[::-1]
@@ -327,12 +329,9 @@ class PIC863Mercury(Device):
             self.debug_stream("device state: FAULT")
             return DevState.FAULT
 
-        if self.NeedsServo:
-            ontarget = self.write_read('ONT? '+str(self.Axis))
-            if ontarget==0:
-                self.set_status("The device is in MOVING state")
-                self.debug_stream("device state: MOVING")
-                return DevState.MOVING
+        if self.NeedsServo and statusbit[15]=="0":
+            self.set_status("The device is in MOVING state")
+            self.debug_stream("device state: MOVING")
 
         self.set_status("The device is in ON state")
         self.debug_stream("device state: ON")
@@ -341,31 +340,31 @@ class PIC863Mercury(Device):
     @command(
     )
     def Home(self):
-        self.write_read('FRF '+str(self.Axis))
+        self.write('FRF '+str(self.Axis))
         pass
 
     @command(
     )
     def StopMove(self):
-        self.write_read('HLT '+str(self.Axis))
+        self.write('HLT '+str(self.Axis))
         pass
 
     @command(
     )
     def Abort(self):
-        self.write_read(chr(24))
+        self.write(chr(24))
         pass
 
     @command(
     )
     def ServoEnable(self):
-        self.write_read('SVO '+str(self.Axis)+' 1')
+        self.write('SVO '+str(self.Axis)+' 1')
         pass
 
     @command(
     )
     def ServoDisable(self):
-        self.write_read('SVO '+str(self.Axis)+' 0')
+        self.write('SVO '+str(self.Axis)+' 0')
         pass
 
     @command(dtype_in='DevDouble')
@@ -375,13 +374,13 @@ class PIC863Mercury(Device):
     @command(
     )
     def ResetMotor(self):
-        self.write_read('RBT')
+        self.write('RBT')
         pass
 
     @command(
     )
     def WriteNonvolatileParam(self):
-        self.write_read('WPA 100')
+        self.write('WPA 100')
         pass
 
     @command(
@@ -419,17 +418,29 @@ class PIC863Mercury(Device):
 
     @command(
         dtype_in='DevString',
+    )
+    def write(self, cmd):
+        cmd = str(self.CtrlID)+" "+cmd+"\n"
+        self.debug_stream("write command: {:s}".format(cmd))
+        self.serial.write(cmd.encode("utf-8"))
+        self.serial.flush()
+        pass
+
+    @command(
+        dtype_in='DevString',
         dtype_out='DevString',
     )
     def write_read(self, cmd):
         cmd = str(self.CtrlID)+" "+cmd+"\n"
-
         self.debug_stream("write command: {:s}".format(cmd))
         self.serial.write(cmd.encode("utf-8"))
-        self.serial.flush()
-        time.sleep(0.02)
-        res = self.serial.read_all()
-        res = res.decode("utf-8")
+
+        res = ""
+        while not "\n" in res:
+            self.serial.flush()
+            line = self.serial.readline().decode("utf-8")
+            res += line
+
         self.debug_stream("read response: {:s}".format(res))
         ctrlPrefix = "0 "+str(self.CtrlID)+" "
         axisPrefix = str(self.Axis)+"="
@@ -439,19 +450,6 @@ class PIC863Mercury(Device):
 
         if res.find("=")>-1:
             res = res.split("=")[1]
-
-        # get error code
-        errcmd = str(self.CtrlID)+" ERR?\n"
-        self.serial.write(errcmd.encode("utf-8"))
-        self.serial.flush()
-        time.sleep(0.02)
-        errcode = self.serial.read_all()
-        errcode = errcode.decode("utf-8")
-        self.debug_stream("error code: {:s}".format(errcode))
-
-        errcode = errcode.replace(ctrlPrefix,"")
-        if errcode!="0\n" and cmd!=str(self.CtrlID)+" "+chr(4)+"\n":
-            self.error_stream("controller returned error code {:s}".format(errcode))
 
         return res
 
