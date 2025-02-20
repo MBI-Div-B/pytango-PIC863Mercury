@@ -347,6 +347,7 @@ class PIC863Mercury(Device):
     )
     def StopMove(self):
         self.write('HLT '+str(self.Axis))
+        self.write_read('ERR?')
         pass
 
     @command(
